@@ -1,0 +1,57 @@
+.whole-thing {
+    height: 100vh;
+    background-color: rgb(32, 32, 32);
+    width: 100vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.italia {
+    font-size: 40px;
+    font-style: italic;
+    line-height: 40px;
+    margin-bottom: 25px;
+    font-family: 'Droid Serif','Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+.lander {
+    font-size: 75px;
+    font-weight: 700;
+    line-height: 75px;
+    margin-bottom: 50px;
+    font-family: Montserrat,'Helvetica Neue',Helvetica,Arial,sans-serif
+
+}
+
+#tell-me-more {
+    background-color: rgb(254,204,1);
+    border-style: none;
+    border-radius: 5px;
+    height: 69px;
+    width: 219px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+@media (max-width: 768px) {
+    .lander {
+        font-size: 50px;
+        line-height: 50px;
+        margin-bottom: 25px;
+    }
+
+    .italia {
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .lander{
+       width: 70%;
+    }
+}
